@@ -228,6 +228,8 @@ jobs:
         run: sudo sntp -sS time.windows.com
 
       # Build signed LoopCaregiver IPA file
+      - name: Update Fastlane
+        run: bundle update fastlane
       - name: Fastlane Build & Archive
         run: bundle exec fastlane caregiver_build
         env:
