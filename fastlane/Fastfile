@@ -62,7 +62,7 @@ platform :ios do
         "com.#{TEAMID}.loopkit.LoopCaregiver.WidgetExtension",
         "com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp",
         "com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp.WidgetExtension",
-      ]
+      ],
       app_group_identifiers: ["group.com.YOUR_TEAM_ID.loopkit.LoopCaregiverGroup"]    
    )
 
