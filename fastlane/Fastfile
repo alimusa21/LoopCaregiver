@@ -63,7 +63,7 @@ platform :ios do
         "com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp",
         "com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp.WidgetExtension",
       ],
-      app_group_identifiers: ["group.com.YOUR_TEAM_ID.loopkit.LoopCaregiverGroup"]    
+      app_group_identifiers: ["group.com.KG8UMJ7P89.loopkit.LoopCaregiverGroup"]    
    )
 
     mapping = Actions.lane_context[
