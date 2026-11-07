@@ -155,6 +155,7 @@ platform :ios do
       existing = bundle_id.get_capabilities.map(&:capability_type)
       capabilities.reject { |c| existing.include?(c) }.each do |cap|
         bundle_id.create_capability(cap)
+    end
     if capabilities.include?(Spaceship::ConnectAPI::BundleIdCapability::Type::APP_GROUPS)
         group_identifier = "group.com.#{TEAMID}.loopkit.loopgroup"
         existing_groups = bundle_id.app_groups rescue []
